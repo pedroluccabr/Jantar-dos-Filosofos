@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pc_trabalho03_202210183.FXMLController">
+    <children>
+      <ImageView fitHeight="771.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/pisoMadeira2.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="button" layoutX="14.0" layoutY="419.0" onAction="#handleButtonAction" prefHeight="80.0" prefWidth="200.0" text="PLAY">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <ImageView fx:id="aristoteles" fitHeight="170.0" fitWidth="170.0" layoutX="413.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/aristoteles.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kant" fitHeight="170.0" fitWidth="170.0" layoutX="595.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/kant.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nietzsche" fitHeight="163.0" fitWidth="170.0" layoutX="256.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/nietzsche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="platao" fitHeight="173.0" fitWidth="170.0" layoutX="622.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/platao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="socrates" fitHeight="187.0" fitWidth="193.0" layoutX="196.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/socrates.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="388.0" fitWidth="348.0" layoutX="326.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo2" fitHeight="94.0" fitWidth="91.0" layoutX="345.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" rotate="20.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo3" fitHeight="94.0" fitWidth="91.0" layoutX="468.0" layoutY="421.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="40.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo1" fitHeight="94.0" fitWidth="91.0" layoutX="382.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo5" fitHeight="94.0" fitWidth="91.0" layoutX="533.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo4" fitHeight="94.0" fitWidth="91.0" layoutX="576.0" layoutY="322.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-31.6">
+         <image>
+            <Image url="@imagens/garfo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label2" layoutX="427.0" layoutY="388.0" prefHeight="25.0" prefWidth="75.0" rotate="39.3">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="512.0" layoutY="382.0" prefHeight="25.0" prefWidth="75.0" rotate="-39.8">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="515.0" layoutY="293.0" prefHeight="25.0" prefWidth="75.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="467.0" layoutY="240.0" prefHeight="25.0" prefWidth="75.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="428.0" layoutY="309.0" prefHeight="25.0" prefWidth="75.0" rotate="3.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Slider fx:id="comer4" blendMode="ADD" layoutX="572.0" layoutY="108.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="pensar4" blendMode="ADD" layoutX="572.0" layoutY="58.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Label layoutX="610.0" layoutY="23.0" prefHeight="35.0" prefWidth="74.0" text="PENSAR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="614.0" layoutY="76.0" prefHeight="35.0" prefWidth="66.0" text="COMER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Slider fx:id="pensar3" blendMode="ADD" layoutX="784.0" layoutY="214.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="comer3" blendMode="ADD" layoutX="784.0" layoutY="270.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="pensar2" blendMode="ADD" layoutX="764.0" layoutY="495.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="comer2" blendMode="ADD" layoutX="764.0" layoutY="552.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="comer1" blendMode="ADD" layoutX="275.0" layoutY="657.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="pensar1" blendMode="ADD" layoutX="272.0" layoutY="613.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="pensar0" blendMode="ADD" layoutX="57.0" layoutY="214.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Slider fx:id="comer0" blendMode="ADD" layoutX="57.0" layoutY="266.0" max="70.0" min="10.0" prefHeight="15.0" prefWidth="150.0" />
+      <Label layoutX="822.0" layoutY="177.0" prefHeight="35.0" prefWidth="74.0" text="PENSAR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="177.0" prefHeight="35.0" prefWidth="74.0" text="PENSAR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="580.0" prefHeight="35.0" prefWidth="74.0" text="PENSAR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="802.0" layoutY="459.0" prefHeight="35.0" prefWidth="74.0" text="PENSAR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="826.0" layoutY="235.0" prefHeight="29.0" prefWidth="66.0" text="COMER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="804.0" layoutY="513.0" prefHeight="35.0" prefWidth="66.0" text="COMER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="232.0" prefHeight="29.0" prefWidth="66.0" text="COMER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="628.0" prefHeight="29.0" prefWidth="66.0" text="COMER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="resetGeral" layoutX="14.0" layoutY="512.0" mnemonicParsing="false" onAction="#resetGeral" prefHeight="80.0" prefWidth="200.0" text="RESET " />
+      <Button fx:id="pauseSocrates" layoutX="69.0" layoutY="287.0" mnemonicParsing="false" onAction="#pauseSocrates" prefHeight="30.0" prefWidth="125.0" text="PAUSE SÓCRATES" />
+      <Button fx:id="pauseAristoteles" layoutX="297.0" layoutY="38.0" mnemonicParsing="false" onAction="#pauseAristoteles" prefHeight="30.0" prefWidth="125.0" text="PAUSE ARISTÓTELES" />
+      <Button fx:id="pauseNietzsche" layoutX="288.0" layoutY="675.0" mnemonicParsing="false" onAction="#pauseNietzsche" prefHeight="30.0" prefWidth="125.0" text="PAUSE NIETZSCHE" />
+      <Button fx:id="pauseKant" layoutX="775.0" layoutY="574.0" mnemonicParsing="false" onAction="#pauseKant" prefHeight="30.0" prefWidth="125.0" text="PAUSE KANT" />
+      <Button fx:id="pausePlatao" layoutX="797.0" layoutY="291.0" mnemonicParsing="false" onAction="#pausePlatao" prefHeight="30.0" prefWidth="125.0" text="PAUSE PLATÃO" />
+      <Button fx:id="retomarSocrates" layoutX="62.0" layoutY="329.0" mnemonicParsing="false" onAction="#retomarSocrates" prefHeight="30.0" prefWidth="140.0" text="RETOMAR SÓCRATES" />
+      <Button fx:id="retomarNietzsche" layoutX="281.0" layoutY="713.0" mnemonicParsing="false" onAction="#retomarNietzsche" prefHeight="30.0" prefWidth="140.0" text="RETOMAR NIETZSCHE" />
+      <Button fx:id="retomarKant" layoutX="775.0" layoutY="615.0" mnemonicParsing="false" onAction="#retomarKant" prefHeight="30.0" prefWidth="125.0" text="RETOMAR KANT" />
+      <Button fx:id="retomarPlatao" layoutX="797.0" layoutY="332.0" mnemonicParsing="false" onAction="#retomarPlatao" prefHeight="30.0" prefWidth="125.0" text="RETOMAR PLATÃO" />
+      <Button fx:id="retomarAristoteles" layoutX="285.0" layoutY="82.0" mnemonicParsing="false" onAction="#retomarAristoteles" prefHeight="30.0" prefWidth="150.0" text="RETOMAR ARISTÓTELES" />
+    </children>
+</AnchorPane>
